@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-06-28T00:09:11 IST" name="Cucumber Suite" finished-at="2026-06-28T00:09:23 IST" duration-ms="11951">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@36bc55de]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-06-28T00:09:11 IST" name="Test" finished-at="2026-06-28T00:09:23 IST" duration-ms="11951">
+      <class name="Runner.Runnerclass">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.Runnerclass@36bc55de]" started-at="2026-06-28T00:09:11 IST" name="setUpClass" finished-at="2026-06-28T00:09:12 IST" duration-ms="1002" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@7c75db8b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@36bc55de]" started-at="2026-06-28T00:09:12 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-28T00:09:18 IST" duration-ms="6216" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["run the file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Run a test file"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="junit.framework.ComparisonFailure">
+            <message>
+              <![CDATA[expected:<https://rahulshettyacademy.com/seleniumPractise/#/> but was:<rahulshetty>]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[junit.framework.ComparisonFailure: expected:<https://rahulshettyacademy.com/seleniumPractise/#/> but was:<rahulshetty>
+at junit.framework.Assert.assertEquals(Assert.java:81)
+at junit.framework.Assert.assertEquals(Assert.java:87)
+at Stepdefinations.test.failscenario(test.java:23)
+at ✽.failscenario(file:///C:/Users/adapa/Desktop/selenium/testcucumberupdatedjenkis/src/test/resources/featurefiles/testing.feature:8)
+]]>
+            </full-stacktrace>
+          </exception> <!-- junit.framework.ComparisonFailure -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.Runnerclass@36bc55de]" started-at="2026-06-28T00:09:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-06-28T00:09:23 IST" duration-ms="4531" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["run Negative file"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Run a test file"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.Runnerclass@36bc55de]" started-at="2026-06-28T00:09:23 IST" name="tearDownClass" finished-at="2026-06-28T00:09:23 IST" duration-ms="110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.Runnerclass -->
+    </test> <!-- Test -->
+  </suite> <!-- Cucumber Suite -->
+</testng-results>
