@@ -1,5 +1,5 @@
 
-@test1
+@test
 Feature: Run a test file
 Scenario: run the Negative case
 
